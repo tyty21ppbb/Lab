@@ -1,7 +1,7 @@
 body {
     font-family: 'Titillium Web', sans-serif;
-    background: #ffffff;
-    color: #000000;
+    background: #111;
+    color: #fff;
     padding: 20px;
 }
 
@@ -13,79 +13,85 @@ body {
     margin-bottom: 20px;
 }
 
-.menu-btn {
-    background: #3300ff;
-    color: rgb(0, 0, 0);
+.tab-btn {
+    background: #0327f1;
     border: none;
-    padding: 12px 20px;
-    font-size: 16px;
+    padding: 12px 18px;
+    color: #fff;
     font-weight: 700;
     cursor: pointer;
-    text-transform: uppercase;
 }
 
-.menu-btn.active {
-    background: #000000;
-    color: #3300ff;
+.tab-btn.active {
+    background: #fff;
+    color: #0327f1;
 }
 
-/* CONTAINERS */
-.main-container {
+/* CONTAINER */
+.container {
     background: #fff;
     color: #000;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
     padding: 20px;
+    border: 2px solid #0327f1;
 }
 
-.form-title {
-    letter-spacing: 2px;
-    border-bottom: 3px solid #3300ff;
-    margin-bottom: 15px;
+h1 {
+    border-bottom: 3px solid #0327f1;
+    padding-bottom: 5px;
 }
 
 /* FORM */
-.form-section label {
-    display: block;
-    margin-top: 10px;
-    font-weight: 700;
+fieldset {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #000;
 }
 
-input, select {
+legend {
+    font-weight: bold;
+}
+
+input, select, textarea {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
 }
 
-.btn-submit {
-    margin-top: 15px;
+textarea {
+    height: 80px;
+}
+
+button {
+    margin-top: 10px;
     width: 100%;
     padding: 12px;
-    background: #3300ff;
+    background: #0327f1;
     color: #fff;
     border: none;
     font-weight: 900;
+    cursor: pointer;
 }
 
-/* OUTPUT */
-.output-container {
-    margin-top: 20px;
-    padding-top: 10px;
-    border-top: 3px dashed #3300ff;
-}
-
-/* TABLE */
+/* MULTIPLICATION TABLE */
 .mult-table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 10px;
 }
 
 .mult-table td {
     border: 1px solid #000;
     padding: 10px;
     text-align: center;
-    font-weight: 700;
+    font-weight: bold;
 }
 
-.cell-yellow { background: #ffffff; }
-.cell-red { background: #3300ff; }
+.cell-yellow {
+    background: #0327f1;
+}
+
+.cell-red {
+    background: #ffffff;
+}
