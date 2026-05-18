@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* GRID LAYOUT */
+.container {
+    width: 50%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+}
+
+/* HEADER */
+.header {
+    grid-column: span 2;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* LABEL */
+.label {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #eaeaea;
+}
+
+/* VALUE */
+.value {
+    border: 1px solid black;
+    padding: 10px;
+}
