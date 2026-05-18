@@ -1,0 +1,96 @@
+/* ===== GENERAL ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+    width: 850px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border: 2px solid blue;
+}
+
+/* ===== TOP SECTION (IMAGE + TEXT SIDE BY SIDE) ===== */
+.top-section {
+    display: flex;
+    align-items: flex-start; /* align top */
+    gap: 25px; /* space between image and text */
+    border-bottom: 2px solid blue;
+    padding-bottom: 20px;
+}
+
+/* ===== PROFILE IMAGE ===== */
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+
+    border: 2px solid blue;
+    padding: 5px;
+    background: white;
+
+    border-radius: 8px;
+}
+
+/* ===== TEXT AREA ===== */
+.text-content {
+    flex: 1; /* take remaining space */
+}
+
+/* ===== NAME ===== */
+h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* ===== PERSONAL INFO TEXT ===== */
+p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+/* ===== SECTION TITLE ===== */
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* ===== LIST ===== */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* ===== MENU ===== */
+.menu {
+    margin-top: 25px;
+    border-top: 2px solid blue;
+}
+
+/* MENU LINK */
+.menu a {
+    display: block;
+    padding: 12px;
+    border-bottom: 1px solid blue;
+
+    text-decoration: none;
+    color: black;
+}
+
+/* HOVER EFFECT */
+.menu a:hover {
+    background: #e0e0e0;
+}
+
+/* ACTIVE PAGE */
+.menu .active {
+    background: blue;
+    color: white;
+    font-weight: bold;
+}
