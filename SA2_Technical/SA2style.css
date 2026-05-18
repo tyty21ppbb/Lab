@@ -1,0 +1,107 @@
+/* Base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4b400;
+    margin: 0;
+    text-align: center;
+}
+
+/* Title */
+.title {
+    background-color: #2c0b7a;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/* Container */
+.table-container {
+    margin: 30px;
+    background-color: #f9e4b7;
+    padding: 15px;
+    border: 2px solid #333;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: separate; 
+    border-spacing: 0 12px; /* space between rows for floating */
+}
+
+/* Header */
+th {
+    background-color: #22b8cf;
+    color: white;
+    padding: 12px;
+    border: 2px solid black;
+}
+
+/* Cells */
+td {
+    padding: 15px;
+    border: 2px solid black;
+}
+
+/* Images */
+img {
+    width: 90px;
+    height: 90px;
+    border-radius: 12px;
+    background: white;
+    padding: 5px;
+}
+
+/* Smooth animation */
+tr {
+    transition: all 0.3s ease;
+}
+
+/* FLOAT EFFECT */
+tr:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+/* FRUIT COLORS */
+.apple {
+    background-color: #e6b3b3;
+}
+
+.banana {
+    background-color: #f2e2a9;
+}
+
+.cherry {
+    background-color: #e69a9a;
+}
+
+.grapes {
+    background-color: #c3b2d6;
+}
+
+.mango {
+    background-color: #f4cc8c;
+}
+
+.orange {
+    background-color: #f7c89b;
+}
+
+.papaya {
+    background-color: #ffc999;
+}
+
+.pineapple {
+    background-color: #fff2a6;
+}
+
+.strawberry {
+    background-color: #ff9aa2;
+}
+
+.watermelon {
+    background-color: #b6e3b6;
+}
