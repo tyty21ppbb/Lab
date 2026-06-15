@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: white;
+}
+
+/* MAIN BOX */
+.container {
+    width: 500px;
+    margin: 60px auto;
+    padding: 25px;
+    background-color: #1a1a1a;
+    border: 2px solid #0756cc;
+    box-shadow: 0 0 15px rgba(0, 153, 255, 0.555);
+}
+
+/* TITLE */
+h3 {
+    text-align: center;
+    color: #0756cc;
+    letter-spacing: 2px;
+}
+
+/*  GRID FORM */
+form {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    row-gap: 12px;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+
+/* LABEL */
+label {
+    font-weight: bold;
+}
+
+/* INPUT */
+input[type="text"] {
+    background-color: #000;
+    color: white;
+    border: 1px solid #0756cc;
+    padding: 6px;
+}
+
+/* BUTTON AREA */
+.buttons {
+    grid-column: span 2;
+}
+
+/* BUTTONS */
+button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #0756cc;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #0756cc;
+}
+
+/* OUTPUT */
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid #0756cc;
+    background-color: #000;
+}
